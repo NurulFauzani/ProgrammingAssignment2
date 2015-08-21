@@ -62,15 +62,15 @@ cacheSolve <- function(x, ...) {
 
 ## Sample run:
 
-# m<-makeCacheMatrix(matrix(c(1,2,4,7),2,2))
+# m<- makeCacheMatrix(matrix(c(1,2,4,7),2,2))
 
 # cacheSolve(m)     
 #>        [,1] [,2]
-#>  [1,]   -2    1
-#>  [2,]    7   -3
+#>  [1,]   -7    4
+#>  [2,]    2   -1     
 
 # cacheSolve(m) 
-#> getting cached inverse
+#> getting cached data
 #>        [,1] [,2]
-#>  [1,]   -2    1
-#>  [2,]    7   -3
+#>  [1,]   -7    4
+#>  [2,]    2   -1
